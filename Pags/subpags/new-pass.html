@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../../styles/style-new-pass.css" rel="stylesheet">
+
+        <link rel="preload" href="../../styles/style-new-pass.css" as="style">
+    </head>
+    <body>
+
+        <div class="form">
+            <h2>Redefinir senha</h2>
+            <span>Senha Antiga:</span>
+            <input type="password" class="senha" id="senha" required>
+            <span>Nova Senha:</span>
+            <input type="password" class="senha" id="senha" required>
+            <span>Confirme a nova Senha:</span>
+            <input type="password" class="senha" id="newsenha" required>
+
+            <a class="entrar" id="entrar" onclick="mostrar()" href="#">Redefinir</a>
+
+           
+
+        </div>
+
+        <div class="conteudo" id="cont">
+            <div class="alterada">
+                <div class="border"></div><!--border-->
+                <img src="../../styles/img/confirme.png">
+
+                <p> Sua senha foi alterada</p>
+                
+                </div><!--alterada-->
+        
+             <!--<a href="../../index.html">Fazer login</a>-->
+
+        </div><!--conteudo-->
+
+     
+        <script>
+
+          //  const menuSize  = '15%';
+
+         //   const color = 'rgba(0, 0, 0, 0.9)';
+
+
+          
+
+           // document.querySelector('#entrar').addEventListener('click' , e => {
+
+
+                //document.querySelector('.conteudo').style.display = 'block'
+
+               //document.querySelector('.conteudo').style.marginRight = 0
+    
+             /// });
+
+
+            /*    document.querySelector('#entrar').addEventListener('click' , e => {
+
+                    
+
+                    document.querySelector('.conteudo').style.marginRight = `${menuSize}`;
+
+                   
+    
+                });
+
+                document.querySelector('#entrar').addEventListener('click' , e => {
+
+
+                document.querySelector('.form').style.backgroundColor = `${color}`;
+
+
+                });
+          
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+                 function mostrar() {
+                    var element = document.getElementById("cont");
+                    element.classList.add("hide");
+                  }
+                  
+                /*  function mostrar() {
+                    var element = document.getElementById("cont");
+                    element.classList.remove("hide");
+                  }*/
+
+
+
+           
+
+
+        </script>
+        
+    </body>
+</html>

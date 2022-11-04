@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: #000000;
+}
+
+.form{
+    position: relative;
+    background: #000000;
+    border: 1px solid #000;
+    width: 300px;
+    height: 400px;
+    padding: 36px 40px 60px;
+    border-radius: 10px;
+    text-align: center;}
+
+.form::before{
+    content:'';
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    background: linear-gradient( #e91363, #5d02ff);
+    z-index: -1;
+    transform: skew(-2deg,-1deg);
+    border-radius: 10px;}
+
+input ,.entrar{
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    width: 220px;
+    height: 35px;
+    margin-top: 20px;
+    display: block;
+}
+
+h2{
+    
+    color: #5d02ff;
+    position: relative;
+    top: -20px;
+    left: 0px;
+    font-size: 30px;
+    transition: color 1s;
+}
+
+h2:hover{
+    color: #e91363;
+}
+
+span{
+    position: relative;
+    top: 8px;
+    color: white;
+}
+
+.entrar{
+    
+    padding: 4px;
+    text-decoration: none;
+    background-color: #5d02ff;
+    color: white;
+    transition: background 2s;
+}
+
+.entrar:hover{
+    background-color: #e91363;
+    color: black;}
+    
+.conteudo{
+    
+    
+  /*  transition: margin 1s ease-in-out;             */
+    position: absolute;
+    top: 1%;
+    right: 11%;
+
+    
+    width: 250px;
+    height: 90px;
+    border:none;
+    
+}
+
+
+.conteudo .border{
+width: 8px;
+height: 40px;
+background-color: rgb(9, 168, 46);
+
+}
+
+.conteudo .alterada{
+color: white;
+width: 300px;
+height: 40px;
+background-color: rgba(192, 243, 204, 0.113);
+position: absolute;
+top: 5%;
+left: 80px;
+}
+
+.conteudo p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+position: absolute;
+top: 11px;
+left: 40px;
+}
+
+.conteudo img{
+width: 15px;
+position: absolute;
+z-index: 1;
+top: 32%;
+left: 5%;
+}
+
+.conteudo a{
+width: 130px;
+padding: 6px;
+text-align: center;
+height: 35px;
+color: white;
+border-radius: 5px;
+text-decoration: none;
+border: none;
+background-color: #5d02ff;
+
+
+position: absolute;
+top: 55%;
+left: 65%;
+
+}
+
+.conteudo a:hover{
+
+background-color: #e91363;
+
+}
+
+
+
+.conteudo{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hide{
+    opacity: 1;
+    transition: opacity 2s linear;
+}
+
+

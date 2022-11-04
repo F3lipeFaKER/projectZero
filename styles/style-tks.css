@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,html{
+    height: 100%;
+    background-color: rgb(171, 169, 169);
+}
+
+.container{
+
+    box-shadow: inset 0 0 1em rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0);
+    background :url(../styles/img/bk-bord.jpg);
+    opacity: 90%;
+    background-size: 100%;
+   
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 500px;
+    height: 250px;
+    border:none;
+    
+}
+
+.conteudo{
+    
+        background-color: white;
+        position: absolute;
+        top: 3.5%;
+        left: 3%;
+        width: 470px;
+        height: 230px;
+        border:none;
+        
+    }
+
+
+.border{
+    width: 8px;
+    height: 40px;
+    background-color: rgb(9, 168, 46);
+
+}
+
+.alterada{
+    width: 430px;
+    height: 40px;
+    background-color: rgb(192, 243, 204);
+    position: absolute;
+    top: 25%;
+    left: 20px;
+}
+
+p{
+    position: absolute;
+    top: 9px;
+    left: 45px;
+}
+
+img{
+    width: 15px;
+    position: absolute;
+    z-index: 1;
+    top: 32%;
+    left: 5%;
+}
+
+a{
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    background-color: #5d02ff;
+    
+
+    position: absolute;
+    top: 70%;
+    left: 33%;
+    transition: background .9s;
+}
+
+a:hover{
+
+    background-color: #e91363;
+
+}
+
+
+    
